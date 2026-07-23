@@ -1,0 +1,5 @@
+owner     = "Milkywayrules"
+repo_name = "verasic-governance-sandbox-placeholder"
+private   = true
+
+# github_token via TF_VAR_github_token — never commit
