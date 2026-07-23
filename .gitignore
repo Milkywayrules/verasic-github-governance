@@ -1,0 +1,19 @@
+skills-lock.json
+.agents/
+.cursor/
+
+# agent harness secrets
+.github-agent.local
+.env.local
+
+# OpenTofu / Terraform (local state and secrets only)
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json

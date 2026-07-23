@@ -1,0 +1,7 @@
+owner     = "verasic-lab"
+repo_name = "example-production-gated-placeholder"
+private   = true
+
+# WARNING: enable_hard_protection=true in this example.
+# Apply ONLY when plan-matrix allows branch protection for this visibility.
+# github_token via TF_VAR_github_token — never commit
