@@ -2,9 +2,13 @@ skills-lock.json
 .agents/
 .cursor/
 
-# agent harness secrets
+# agent harness secrets & env files
 .github-agent.local
+
+# local development files
+.env
 .env.local
+.env.*.local
 
 # OpenTofu / Terraform (local state and secrets only)
 .terraform/
